@@ -13,7 +13,7 @@ This is a project that involves creating an e-commerce site's backend and databa
 
   * [License](#license)
 
-  * [Code-Highlights](#Code-Highlights)
+  * [Code Highlights](#Code)
 
   * [Contributing](#contributing)
 
@@ -55,7 +55,12 @@ package.json
 README.md
 server.js
 ```
-
+You will need to create a .env file that includes:
+```.en
+DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PASSWORD='YourmySQLpassword'
+```
 run the following commands to initiate the server and seed the database
 
 ```
@@ -80,7 +85,7 @@ npm start
   This project is licensed under the MIT License
 
 
-  ## Code -Highlights
+  ## Code Highlights
   GET request
   ```java
   // get all products
