@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Ecommerce Website</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
+  <!-- Bootstrap CSS -->
+
+  <!-- Custom CSS -->
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Ecommerce Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Welcome to Our New Ecommerce Website</h1>
+          <p>Shop our collection of shirts, shoes, hats, music, and shorts.</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/imgs/BigLandingImage.jpg" alt="Banner Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/imgs/t-shirt.jpg" class="card-img-top img-fluid" alt="Product Image">
+            <div class="card-body">
+              <h5 class="card-title">Plain T-Shirt</h5>
+              <p class="card-text">Price: $15.00</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/imgs/running shoe.jpg" class="card-img-top img-fluid" alt="Product Image">
+            <div class="card-body">
+            <h5 class="card-title">Running Shoes</h5>
+            <p class="card-text">Price: $75.00</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <img src="./assets/imgs/snapback.jpg" class="card-img-top img-fluid" alt="Product Image">
+            <div class="card-body">
+            <h5 class="card-title">Snapback Hat</h5>
+            <p class="card-text">Price: $20.00</p>
+            <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            
+              </section>
+              <section id="about">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h2>About Us</h2>
+                      <p>We are a small online retailer specializing in casual clothing and accessories. Our mission is to provide high quality products at affordable prices.</p>
+                      <p>Our team is dedicated to providing excellent customer service and we are always happy to answer any questions you may have.</p>
+                    </div>
+                    <div class="col-md-6">
+                      <img src="https://dummyimage.com/600x400/000/fff" alt="About Image" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="contact">
+                <div class="container">
+                  <h2>Contact Us</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>Feel free to contact us with any questions or concerns you may have.</p>
+                      <ul class="list-unstyled">
+                        <li>Phone: 555-555-5555</li>
+                        <li>Email: info@myecommercewebsite.com</li>
+                        <li>Address: 123 Main St, Anytown USA</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="message" class="form-label">Message</label>
+                          <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </section>

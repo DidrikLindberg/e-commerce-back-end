@@ -10,7 +10,10 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use(express.static('public')); // Serve static files in the `public` directory
+
 app.use(routes);
+app.use('/products', htmlRoutes);
 
 // sync sequelize models to the database, then turn on the server
 sequelize.sync({ force: false}).then(() => {
