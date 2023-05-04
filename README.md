@@ -4,6 +4,8 @@
 [![Node.js Badge](https://img.shields.io/badge/Node.js-green)](https://nodejs.org/en)
 [![npm Badge](https://img.shields.io/badge/npm-gray)](https://npmjs.com)
 [![mySQL2 Badge](https://img.shields.io/badge/mySQL2-orange)](https://www.mysql.com/)
+
+
 ## Description
 This is a project that involves creating an e-commerce site's backend and database using various technologies such as MySQL2, Express, Sequelize, and dotenv. There is no functional frontend as of now, but the functionality can easily be tested in insomnia. The app is able to complete API GET, POST, PUT, and DELETE requests to Categories, Products, and tags
 
@@ -19,7 +21,26 @@ This is a project that involves creating an e-commerce site's backend and databa
 
   * [Questions](#questions)
 
+## walkthrough
+[See how this backend e-commerce app work behind the scenes!](https://drive.google.com/file/d/1xg4zgZmMQwJ0_Ec48R2ACjjOGPwQMS75/view)
+
 ## Insomnia requests
+CRUD Requests to /api/categories
+
+![CRUD Categories Requests](./assets/gifs/GET%20Categories.gif)
+
+
+CRUD Requests to /api/products
+
+![CRUD Products Requests](./assets/gifs/CRUD%20Products.gif)
+
+
+CRUD Requests to /api/tags
+
+![CRUD Tags Requests](./assets/gifs/CRUD%20Tags.gif)
+
+
+
 
 
 ## Usage
@@ -74,7 +95,7 @@ quit
 cd ..
 ```
 ```
-npm run seeds
+npm run seed
 npm start
 ```
 
